@@ -1,0 +1,522 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<title>Medilag</title>
+	
+
+	<!-- STYLESHEETS-->
+	<link rel="stylesheet" type="text/css" href="libraries/bootstrap/css/bootstrap.min.css">
+
+	<!-- CUSTOM STYLES -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link href="assets/css/bootstrap-datepicker.css" rel="stylesheet" />
+	
+	<!-- swiper link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/css/swiper.min.css">
+	
+
+	<!-- WEBFONT -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+	
+	
+
+	<!-- ICON -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+</head>
+<body class="">
+
+
+	<header>
+
+		<nav class="navbar __curnavbar" role="navigation">
+        	<div class="container">
+        		<!-- Brand and toggle get grouped for better mobile display -->
+        		<div class="navbar-header">
+        			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        			</button>
+        			<a class="navbar-brand" href="index.html"><img src="assets/img/logo1.png" class="__logoimg"></a>
+        		</div>
+        
+        		<!-- Collect the nav links, forms, and other content for toggling -->
+        		<div class="collapse navbar-collapse navbar-ex1-collapse">
+        			<ul class="nav navbar-nav">
+        				<!-- <li class="active"><a href="#">Link</a></li>
+        				<li><a href="#">Link</a></li> -->
+        				
+        			</ul>
+        			<!-- <form class="navbar-form navbar-left" role="search">
+        				<div class="form-group">
+        					<input type="text" class="form-control" placeholder="Search">
+        				</div>
+        				<button type="submit" class="btn btn-default">Submit</button>
+        			</form> -->
+        			<ul class="nav navbar-nav navbar-right __navt">
+        				<li><a href="#" class="__navf">Curriculum</a></li>
+        				<li><a href="#" class="__navf">Text Books</a></li>
+        				<li><a href="#" class="__navf">Teachers</a></li>
+        				<li><a href="#" class="__navf">Resources</a></li>
+        				
+        				<!-- <li class="dropdown">
+        					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        					<ul class="dropdown-menu">
+        						<li><a href="#">Action</a></li>
+        						<li><a href="#">Another action</a></li>
+        						<li><a href="#">Something else here</a></li>
+        						<li><a href="#">Separated link</a></li>
+        					</ul>
+        				</li> -->
+        			</ul>
+        		</div><!-- /.navbar-collapse -->
+        	</div>
+        </nav>
+
+		<div id="carousel-example" class="carousel slide" data-ride="carousel">
+	  		<ol class="carousel-indicators">
+			    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example" data-slide-to="1"></li>
+			    <li data-target="#carousel-example" data-slide-to="2"></li>
+	  		</ol>
+
+  			<div class="carousel-inner">
+  
+		    <div class="item __item active">
+				    <div class="hero">
+				        <p>Read More And Make Your Dreams Happen…</p>
+			            <p>This information is for students who are receiving their A-level results, IB results, Nigeria </p>
+				    </div>
+			      	<div class="overlay"></div>
+			     	<img src="assets/img/Group6.png">
+			    </div>
+	  			<div class="item __item">
+				  	<div class="hero">
+				        <p>Read More And Make Your Dreams Happen…</p>
+			            <p>This information is for students who are receiving their A-level results, IB results, Nigeria </p>
+				    </div>
+			      	<div class="overlay"></div>
+			     	<img src="assets/img/girl-and-boy-on-laptops.jpg">
+				</div>
+	    		<div class="item __item">
+	    			<div class="hero">
+				        <p>Read More And Make Your Dreams Happen…</p>
+			            <p>This information is for students who are receiving their A-level results, IB results, Nigeria </p>
+				    </div>
+			      	<div class="overlay"></div>
+			     	<img src="assets/img/girl.jpg">
+	      		</div>
+	  		</div>
+
+	  		<a class="left carousel-control" href="#carousel-example" data-slide="prev">
+	    		<span class="glyphicon glyphicon-chevron-left"></span>
+	    		<span class="glyphicon glyphicon-chevron-left __cur"></span>
+	  		</a>
+	  		<a class="right carousel-control" href="#carousel-example" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="glyphicon glyphicon-chevron-right __cur"></span>
+	  		</a>
+		</div>
+	
+	
+
+        <div class="__searchtop">
+        	<div class="row">
+        		<div class="col-lg-3 col-md-3 col-sm-3 __searchselect">
+        			<select name="" id="input" class="form-control" required="required">
+						<option value="">Location</option>
+					</select>
+    			</div>
+        		<div class="col-lg-3 col-md-3 col-sm-3 __searchselect">
+        			<select name="" id="input" class="form-control" required="required">
+						<option value="">School Year</option>
+					</select>
+        		</div>
+        		<div class="col-lg-3 col-md-3 col-sm-3 __searchselect">
+        			<select name="" id="input" class="form-control" required="required">
+						<option value="">Subject</option>
+					</select>
+        		</div>
+        		<div class="col-lg-3 col-md-3 col-sm-3 __searchselect">
+        			<button type="submit" class="btn btn-block">Search</button>
+        		</div>
+        	</div>
+        </div>
+
+        
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="__grad">
+				<p>Curriculum List</p>
+				<div class="__line"></div>
+				<img src="assets/img/graduationcap.svg" class="">
+			</div>
+
+			<div class="__over">
+				<p class="__pover">OVERVIEW</p>
+				<div class="__tableover">
+					<div class="table-responsive">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th><span><i class="icon icon-user"></i></span>&nbsp;Name</th>
+									<th><span><i class="icon icon-user"></i></span>&nbsp;Subject</th>
+									<th><span><i class="icon icon-envelope"></i></span>&nbsp;Class</th>
+									<th><span><i class="icon icon-location-pin"></i></span>&nbsp;Location</th>
+									<th><span><i class="icon icon-link"></i></span>&nbsp;Link download</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Chad Hodges</td>
+									<td><p class="__tagbg">Maths</p></td>
+									<td>Year 1</td>
+									<td>Greece</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+
+								<tr>
+									<td>Alfred Lloyd</td>
+									<td><p class="__tagbg1">Maths</p></td>
+									<td>Year 2</td>
+									<td>Italy</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+
+								<tr>
+									<td>Elijah Lowe</td>
+									<td><p class="__tagbg2">Maths</p></td>
+									<td>Year 3</td>
+									<td>France</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+
+								<tr>
+									<td>Jacob Kelly</td>
+									<td><p class="__tagbg3">Maths</p></td>
+									<td>Year 4</td>
+									<td>United States</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+
+								<tr>
+									<td>Brandon Pope</td>
+									<td><p class="__tagbg4">Maths</p></td>
+									<td>Year 5</td>
+									<td>Taiwan</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+
+								<tr>
+									<td>Don Huff</td>
+									<td><p class="__tagbg5">Maths</p></td>
+									<td>Year 6</td>
+									<td>Germany</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+
+								<tr>
+									<td>Rose Snyder</td>
+									<td><p class="__tagbg6">Maths</p></td>
+									<td>Year 7</td>
+									<td>United Kingdom</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+
+								<tr>
+									<td>Eula Osborne</td>
+									<td><p class="__tagbg7">Maths</p></td>
+									<td>Year 7</td>
+									<td>Yemen</td>
+									<td><a href="">https://dribbble.com/sho&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span><i class="icon icon-user"></i></span></a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="__downbg">
+			<div class="container">
+				<div class="__graddown">
+					<p>Teachers</p>
+					<div class="__line"></div>
+					<img src="assets/img/graduationcap.svg" class="">
+				</div>
+				<p class="__downp">This information is for students who are receiving their A-level results, IB results, Nigeria </p>
+				<div class="__cardtop">
+					<div id="myCarousel" class="carousel fdi-Carousel slide">
+			         	<div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+			                <div class="carousel-inner onebyone-carosel">
+			                    <div class="item active">
+			                    	<div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher1.jpg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher2.jpg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher3.jpeg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+									</div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher1.jpg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher2.jpg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher3.jpeg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+									</div>
+			                    </div>
+			                    <div class="item">
+			                        <div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher1.jpg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher2.jpg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-4">
+											<div class="__card">
+												<img src="assets/img/teacher3.jpeg" class="img-responsive">
+												<p>Uiniversity of Ibadan</p>
+												<p>English Language</p>
+											</div>
+										</div>
+									</div>
+			                    </div>
+			                </div>
+			                <a class="left carousel-control __lift" href="#eventCarousel" data-slide="prev"><span><i class="fa fa-chevron-left" aria-hidden="true"></i></span></a>
+			                <a class="right carousel-control __right" href="#eventCarousel" data-slide="next"><span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></a>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="__grad">
+				<p>Why Choose Us</p>
+				<div class="__line"></div>
+				<img src="assets/img/graduationcap.svg" class="">
+			</div>
+			<div class="row __whyimg">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+					<img src="assets/img/graduate-student.svg">
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
+					<p class="__downp">This information is for students who are receiving their A-level results, IB results, Nigeria </p>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+					<img src="assets/img/writing-with-a-feather.svg">
+				</div>
+			</div>
+			<div class="__whyimg1 text-center">
+				<img src="assets/img/writing-with-a-feather.svg">
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<p class="__whyp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+
+					<div class="__whyteacher">
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+								<div class="__whycircle"></div>
+							</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-10">
+								<p class="__whydot">Teachers are able to connect with student</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+								<div class="__whycircle1"></div>
+							</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-10">
+								<p class="__whydot">View curriculum on our platform</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+								<div class="__whycircle2"></div>
+							</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-10">
+								<p class="__whydot">Have access to text books</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+								<div class="__whycircle3"></div>
+							</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-10">
+								<p class="__whydot">Free resources</p>
+							</div>
+						</div>
+					</div>
+
+					
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="__whypimg">
+						<img src="assets/img/Group11.png" class="img-responsive">
+					</div>
+				</div>
+			</div>
+
+			<div class="row hidden-xs">
+				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="__whydownimg">
+						<img src="assets/img/writing-with-a-feather.svg">
+					</div>
+				</div>
+				<div class="col-lg-7 col-md-7 col-sm-7">
+					<div class="__whydownimg1">
+						<img src="assets/img/graduate-student.svg">
+					</div>
+				</div>
+				<div class="col-lg-1 col-md-1 col-sm-1">
+					<div class="__whydownimg2">
+						<img src="assets/img/graduate-student.svg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="__downbg1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="__downbg1img text-center">
+							<img src="assets/img/teacher(1).svg">
+							<p>60</p>
+							<p>Teacher</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="__downbg1img text-center">
+							<img src="assets/img/open-book.svg">
+							<p>1000</p>
+							<p>Text Books</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<div class="__downbg1img text-center">
+							<img src="assets/img/teacher(1).svg">
+							<p>60</p>
+							<p>Curriculum</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	
+
+	<footer>
+		<div class="__footerbg">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<a href="" class="__footerp">Curriculum</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<a href="" class="__footerp">Text Books</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<a href="" class="__footerp">Teachers</a>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					<a href="" class="__footerp">Resources</a>
+				</div>
+			</div>
+
+			<div class="__fod">
+				<hr>
+				<div class="__fosocai">
+					<span class="__fotsohf"><a href="" target="_blank"><i class="icon icon-social-facebook"></i></a></span>&nbsp;&nbsp;
+					<span class="__fotsohi"><a href="" target="_blank"><i class="icon icon-social-linkedin"></i></a></span>&nbsp;&nbsp;
+					<span class="__fotsoht"><a href="" target="_blank"><i class="icon icon-social-twitter"></i></a></span>
+				</div>
+			</div><br><br>
+
+			<p class="text-center">234digital. All rights reserved</p>
+
+
+		</div>
+	</footer> 
+
+
+
+	
+
+		
+
+
+	
+
+
+	<script type="text/javascript" src="libraries/bootstrap/js/jquery-3.1.1.min.js"></script>
+
+    <script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- swiper script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.2/js/swiper.min.js"></script>
+
+    
+</body>
+</html>
