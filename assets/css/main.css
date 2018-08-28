@@ -8,7 +8,7 @@ html {
 
 body {
   /*font-family: 'Lato', sans-serif;*/
-  font-family: 'AvenirLTStd-Book', sans-serif;
+  font-family: 'Lato-Regular', sans-serif;
   font-size: 14px;
   color: #222222;
   font-weight: normal;
@@ -20,23 +20,23 @@ body {
 
 
 @font-face{
-  font-family: 'AvenirLTStd-Book';
-  src: url('../../Avenir/AvenirLTStd-Book.otf');
+  font-family: 'Lato-Regular';
+  src: url('../../lato/Lato-Regular.ttf');
 }
 
 @font-face{
-  font-family: 'AvenirLTStd-Medium';
-  src: url('../../Avenir/AvenirLTStd-Medium.otf');
+  font-family: 'Lato-Light';
+  src: url('../../lato/Lato-Light.ttf');
 }
 
 @font-face{
-  font-family: 'AvenirLTStd-Black';
-  src: url('../../Avenir/AvenirLTStd-Black.otf');
+  font-family: 'Lato-Bold';
+  src: url('../../lato/Lato-Bold.ttf');
 }
 
 @font-face{
-  font-family: 'AvenirLTStd-Heavy';
-  src: url('../../Avenir/AvenirLTStd-Heavy.ttf');
+  font-family: 'Lato-Black';
+  src: url('../../lato/Lato-Black.ttf');
 }
 
 @font-face{
@@ -457,7 +457,7 @@ a:focus, a:hover {
 }
 
 .__logoimg{
-  width: 72px;
+  width: 120px;
 }
 
 .__navt{
@@ -470,7 +470,6 @@ a:focus, a:hover {
   letter-spacing: 0.8px;
   /* letter-spacing: 1.1px; */
   color: #ffffff !important;
-  font-family: AvenirLTStd-Black;
   transition: all 0.4s ease-in;
 }
 
@@ -486,18 +485,19 @@ a:focus, a:hover {
 /********************************/
 
 .__item img{
-  height: 700px !important;
+  height: 788px !important;
   width: 100%;
 }
 
 .hero {
     position: absolute;
-    top: 75%;
-    left: 38%;
+    width: 100%;
+    top: 60%;
+    left: 50%;
     z-index: 3;
     color: #fff;
-    /*text-align: center;
-    text-transform: uppercase;*/
+    text-align: center;
+    /*text-transform: uppercase;*/
     text-shadow: 1px 1px 0 rgba(0,0,0,.75);
       -webkit-transform: translate3d(-50%,-50%,0);
          -moz-transform: translate3d(-50%,-50%,0);
@@ -510,6 +510,7 @@ a:focus, a:hover {
   font-weight: bold;
     line-height: 1.26;
   letter-spacing: 1.5px;
+  font-family: Lato-Bold;
 }
 
 .hero p:nth-child(2) {
@@ -517,6 +518,16 @@ a:focus, a:hover {
   font-weight: 900;
   line-height: 2.94;
   letter-spacing: 0.6px;
+  font-family: Lato-Black;
+}
+
+.hero p:nth-child(3) {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 2.94;
+  letter-spacing: 0.6px;
+  margin-top: -32px;
+  font-family: Lato-Black;
 }
 
 .fade-carousel .carousel-inner .item .hero {
@@ -660,6 +671,7 @@ font-size: 28px;
   line-height: 1.89;
   letter-spacing: 1.6px;
   color: #545454;
+  font-family: Lato-Bold;
 }
 
 .__grad .__line{
@@ -686,6 +698,7 @@ font-size: 28px;
   line-height: 1.89;
   letter-spacing: 1.6px;
   color: #545454;
+  font-family: Lato-Bold;
 }
 
 .__graddown .__line{
@@ -706,7 +719,7 @@ font-size: 28px;
   border-radius: 3px;
   background-color: #fbfbfb;
   border: solid 1px #f1f1f1;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .__tagbg{
@@ -839,7 +852,7 @@ tr td:nth-child(5){
 
 .__downbg{
   background-color: #f8f8f8;
-  margin-top: 10%;
+  margin-top: 4%;
   padding: 70px 0;
 }
 
@@ -863,7 +876,6 @@ tr td:nth-child(5){
 .__downbg1img p:nth-child(3){
   font-size: 20px;
   font-weight: 900;
-  font-family: AvenirLTStd-Heavy;
   letter-spacing: 4.2px;
   color: #999999;
 
@@ -896,7 +908,7 @@ tr td:nth-child(5){
 .__card p:nth-child(2){
   font-size: 16px;
   font-weight: 900;
-  font-family: AvenirLTStd-Heavy;
+  font-family: Lato-Bold;
   letter-spacing: 1px;
   color: #404040;
   padding: 20px 20px 0;
@@ -924,7 +936,6 @@ tr td:nth-child(5){
 .__whyp{
   font-size: 18px;
   font-weight: 500;
-  font-family: AvenirLTStd-Medium;
   line-height: 1.39;
   letter-spacing: 1.1px;
   color: #545454;
@@ -940,7 +951,8 @@ tr td:nth-child(5){
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1.2px;
-  color: #5f5f5f;  
+  color: #5f5f5f;
+  font-family: Lato-Light;  
 }
 
 .__whycircle{
@@ -1001,14 +1013,13 @@ tr td:nth-child(5){
 
 
 .__footerbg{
-padding: 107px 280px;
+padding: 60px 280px 37px;
 text-align: center;
 }
 
 .__footerp{
   font-size: 15px;
   font-weight: 500;
-  font-family: AvenirLTStd-Medium;
   letter-spacing: 1px;
   color: #474747 !important;
   transition: all 0.4s ease-in;
