@@ -449,15 +449,26 @@ a:focus, a:hover {
 
 /*medilag*/
 .__curnavbar{
-    position: absolute;
+    /*position: absolute;*/
   /*top: 10px;*/
   width: 100%;
-  background: transparent;
+  /*background: transparent;*/
   z-index: 2;
+      margin-bottom: 0px;
+}
+
+.bg-ybt{
+  /*background:linear-gradient(100deg, rgba(34, 34, 34, 0.21) 50%, rgba(34, 34, 34, 0.21) 50%), url(../img/YBT.jpg);*/
+  background-image: url(../img/YBT.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 784px;
 }
 
 .__logoimg{
   width: 120px;
+  margin-top: -21px;
 }
 
 .__navt{
@@ -469,7 +480,7 @@ a:focus, a:hover {
   font-weight: 900;
   letter-spacing: 0.8px;
   /* letter-spacing: 1.1px; */
-  color: #ffffff !important;
+  color: #545454 !important;
   transition: all 0.4s ease-in;
 }
 
@@ -631,8 +642,14 @@ a:focus, a:hover {
 /*down carousel end*/
 
 .__searchtop{
-  margin-top: -90px;
-  padding: 0 350px;
+  background-image: linear-gradient(to bottom, rgba(74, 74, 74, 0.03), #021532);
+  margin-top: -136px;
+}
+
+.__searchdown{
+    padding: 48px 30px;
+    margin: 0 auto;
+    width: 795px;
 }
 
 .__searchselect{
