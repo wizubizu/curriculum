@@ -38,12 +38,23 @@ $("[data-toggle=popover]").popover({
 // profile image end
 
 
-
+// carousel
 $(document).ready(function () {
     $('#myCarousel').carousel({
         interval: 10000
     });
 });
+// carousel end
+
+// dropdown
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+    // dropdown end
     
 
    
