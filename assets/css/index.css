@@ -588,7 +588,8 @@
   }
 
   .__searchtop {
-    padding: 0 280px;
+    margin-top: 1px;
+    padding: 33% 190px 50px;
   }
 
   /*end*/
@@ -609,16 +610,15 @@
     width: 100%;
   }
 
-  .bg-ybt {
-   height: 645px;
-  }
+ 
 
   .__searchdown {
      width: 100%;
   }
 
   .__searchtop {
-    padding: 0 190px;
+    margin-top: 1px;
+    padding: 33% 190px 50px;
   }
 
   .__cardtop {
@@ -644,9 +644,7 @@
     width: 474px;
   }
 
-  .bg-ybt {
-    height: 625px;
-  }
+  
   /*end*/
 
 
@@ -681,21 +679,24 @@
     text-align: center;
   }
 
-  .bg-ybt {
-    height: 388px;
-  }
+ 
 
   .__searchtop {
-    margin-top: -76px;
+    margin-top: 1px;
+    padding: 38% 90px 50px;
   }
 
-  .__searchtop {
-    padding: 0 90px;
-  }
+  
 
   .__searchdown {
-    padding: 18px 30px;
-    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .__whyimg img {
+    width: 100%;
+  }
+
+  .__whydownimg2 img {
     width: 100%;
   }
 
@@ -735,6 +736,29 @@
 
 @media screen and (max-width: 767px){
 
+  .__logoimg {
+    width: 100px;
+  }
+
+  .__mn{
+    background: #433e59;
+  }
+
+  .__navt {
+    background: #433e59;
+  }
+
+  .__navf {
+    color: #ffffff !important;
+  }
+
+  .__dropmobilecolor{
+    color: #ffffff !important;
+  }
+
+  .__searchtop {
+    padding: 23% 90px 50px;
+  }
   .__cardtop {
     padding: 30px 221px;
   }
@@ -777,13 +801,12 @@
 
   .__navt {
     margin-top: 0;
+    background: #433e59;
   }
 
   .__curnavbar {
     top:0px;
-     position: absolute; 
-    width: 100%;
-    background: #433e59;
+    /*background: #433e59;*/
     margin-bottom: 0;
     /*z-index: 2;*/
   }
@@ -830,9 +853,7 @@
     background-color: transparent;
   }
 
- .bg-ybt {
-    height: 198px;
-  }
+ 
 
   /*hover on dropdown and drop*/
 ul.nav li.dropdown:hover > ul.dropdown-menu {
@@ -841,13 +862,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /*hover on dropdown and drop end*/
 
   .__searchtop {
-    padding: 0 18px;
+    padding: 0;
+    margin-top: 0;
   }
 
   .__searchdown {
-    padding: 60px 9px;
-    margin: 0 auto;
-    width: 100%;
+    padding: 13px 26px;
+    border-radius: 0;
   }
 
   .__searchselect select {
