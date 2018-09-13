@@ -448,6 +448,16 @@ a:focus, a:hover {
 ==================================================================*/
 
 /*medilag*/
+
+.__actiontext{
+  font-family: Lato-Black;
+  font-size: 60px; 
+  font-weight: 900;
+  line-height: 0.88;
+  color: #676767;
+  padding-left: 102px;
+  padding-top: 45px;
+}
 .__curnavbar{
     /*position: absolute;*/
   /*top: 10px;*/
@@ -460,7 +470,7 @@ a:focus, a:hover {
 
 .bg-ybt{
   /*background:linear-gradient(100deg, rgba(34, 34, 34, 0.21) 50%, rgba(34, 34, 34, 0.21) 50%), url(../img/YBT.jpg);*/
-  background-image: url(../img/banner.png);
+  background-image: url(../img/banners.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -657,7 +667,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .__searchtop{
   /*background-image: linear-gradient(to bottom, rgba(74, 74, 74, 0.03), #021532);
   margin-top: -100px;*/
-  padding: 35% 0 6%;
+  padding: 17% 0 6%;
 }
 
 .__searchdown{

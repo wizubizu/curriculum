@@ -610,6 +610,11 @@
     width: 100%;
   }
 
+  .__actiontext {
+    font-size: 47px;
+    padding-left: 100px;
+    padding-top: 25px;
+  }
  
 
   .__searchdown {
@@ -618,7 +623,7 @@
 
   .__searchtop {
     margin-top: 1px;
-    padding: 33% 190px 50px;
+    padding: 16% 160px 50px;
   }
 
   .__cardtop {
@@ -660,6 +665,12 @@
 
 @media screen and (max-width: 800px){
   /*curraculum*/
+
+  .__actiontext {
+    font-size: 35px;
+    padding-left: 79px;
+    padding-top: 20px;
+  }
   .__item img {
     height: 439px !important;
   }
@@ -679,12 +690,7 @@
     text-align: center;
   }
 
- 
-
-  .__searchtop {
-    margin-top: 1px;
-    padding: 38% 90px 50px;
-  }
+  
 
   
 
@@ -736,6 +742,19 @@
 
 @media screen and (max-width: 767px){
 
+  .__actiontext {
+    font-size: 35px;
+    padding-left: 134px;
+    padding-top: 20px;
+  }
+
+ 
+
+  .__searchtop {
+    margin-top: 1px;
+    padding: 1% 89px 47px;
+  }
+
   .__logoimg {
     width: 100px;
   }
@@ -757,7 +776,7 @@
   }
 
   .__searchtop {
-    padding: 23% 90px 50px;
+    padding: 0% 90px 50px;
   }
   .__cardtop {
     padding: 30px 221px;
@@ -793,6 +812,12 @@
   @media screen and (max-width: 560px){
 
   /*curraculume*/
+
+  .__actiontext {
+    font-size: 36px;
+    padding-left: 0;
+    padding-top: 0;
+  }
 
   .__logoimg {
     width: 51px;
